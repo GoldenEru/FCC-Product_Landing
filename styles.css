@@ -1,0 +1,176 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  *,
+  ::before,
+  ::after {
+    padding: 0;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  button, #submit {
+    border: none;
+    border-radius: 5px;
+    background-color: #FF9F1C;
+    color: #453F3C;
+    font-weight: bold;
+  }
+  
+  button {
+    height: 1.25rem;
+    width: 75px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  body {
+    background-color: #f5f0ec;
+  }
+  
+  section {
+    margin-top: 50px;
+  }
+  
+  iframe {
+    display: block;
+    margin: 100px auto 0;
+  }
+  
+  h1, h2, p, a {
+    color: #453F3C;
+    font-family: American Typewriter, serif
+  }
+  
+  p {
+    margin-top: 5px;
+  }
+  
+  #header-img {
+    height: 45px;
+    width: 40px;
+    margin: 2px;
+  }
+  
+  #info-icon {
+    height: 50px;
+    width: 50px;
+    margin: 58px auto 0;
+  }
+  
+  section, #page-header {
+    text-align: center;
+  }
+  
+  #page-header {
+    padding-top: 65px;
+    font-size: 25;
+  }
+  
+  #header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7D7ABC;
+  }
+  
+  #header h1 {
+    margin-right: auto;
+    font-family: Didot, serif
+  }
+  
+  #form {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #product-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  #product-section {
+    border: 1px solid black;
+    max-width: 400px;
+    min-width: 300px;
+    margin: 100px 15px 0;
+    border-radius: 3px;
+  }
+  
+  .product-header {
+    background-color: #7D7ABC;
+    font-size: 30;
+  }
+  
+  .product-price {
+    font-weight: bold;
+    font-size: 20;
+  }
+  
+  #info-section, #info-section-first {
+    text-align: center;
+    display: inline-block;
+  }
+  
+  #info-section h2, #info-section-first h2 {
+    text-align: left;
+  }
+  
+  
+  #email {
+    margin: 0 auto;
+    width: 300px;
+    height: 1.75rem;
+    text-indent: 5px;
+  }
+  
+  #submit {
+    width: 125px;
+    height: 1.50rem;
+    margin: 15px auto 0;
+  }
+  
+  footer {
+    margin-top: 50px;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: right;
+    background-color: #7D7ABC;
+  }
+  
+  footer a, footer p {
+    margin-right: 15px;
+  }
+  
+  .info-grid {
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 15% 80% 5%;
+    min-width: 600px;
+    max-width: 1200px;
+  }
